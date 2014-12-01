@@ -1,4 +1,4 @@
-
+ ,
 <ul id="da-thumbs" class="da-thumbs">
 					<li>
 						<a href="">
