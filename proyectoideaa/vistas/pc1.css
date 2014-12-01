@@ -1,0 +1,241 @@
+@import url(http://fonts.googleapis.com/css?family=Merienda);
+body{	
+	background:url(../img/imagen1.JPG);
+}
+#contenedor{
+    width:1000px;
+	margin:auto;
+	padding:20px;
+	border-radius: 13px 13px 13px 13px;
+	box-shadow: 3px 3px 3px 3px black;
+	background:rgba(255,255,255,0.5);
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0px;padding:0px;
+}
+p{
+text-align:justify;
+}
+#formu{
+	margin:auto;
+	padding:20px;
+	border-radius: 13px 13px 13px 13px;
+	box-shadow: 3px 3px 3px 3px black;
+	background:rgba(255,255,255,0.5);
+}
+#login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+h1,h2{
+	margin:0px;padding:0px;
+	margin-top:10px;
+	padding-top:10px;
+    font-family: 'Merienda', cursive;
+	text-shadow:0px 4px 8px rgba(0,0,0,0.4);
+	position:relative;
+}
+h1{
+	font-size:30px;
+	color:#990000;
+	left:50px;
+}
+#contienemenu{
+  padding:17px;
+  float:left;
+  width:175px;
+  border:1px solid white;
+  border-radius: 0px 25px 0px 25px; 
+  background:#FFFFF1;
+}
+h2{
+	font-size:20px;	
+	color:#006600;
+	top:-20px;
+	left:80px;
+}
+h3{
+	font-size:24px;
+}
+h6{font-size:16px;}
+ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+nav ul li{	
+    width:150px;
+    margin:10px;
+    height:100%;
+    border: 1px solid white;
+    border-radius: 0px 25px 0px 25px;
+    -webkit-border-radius: 0px 25px 0px 25px;
+    box-shadow: 3px 3px 10px black;
+    -webkit-box-shadow: 3px 3px 10px black;
+    opacity:1;
+    transition: opacity 1s, box-shadow 1s, transform 1s, background 1s;
+    -webkit-transition: opacity 1s, -webkit-box-shadow 1s, -webkit-transform 1s, background 1s, color 1s;
+    transform:scale(1,1);
+    -webkit-transform:scale(1,1);
+}
+nav ul li:hover{
+	background:#CCFFCC;
+}
+nav ul li a{
+	text-decoration:none;
+	color:black;
+	text-align:center;
+}
+footer{
+	margin-top:30px;
+	height:30px;
+	text-align:center;
+}
+#logo{
+	height:100px;
+	width:80px;
+	background:url(../img/logo.gif);
+	background-size: 100% 100%;
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+#contieneformulario{
+	width:95%;
+	background:white;
+	padding:20px;
+	box-shadow:0px 10px 25px rgba(0,0,0,0.3);
+	margin-top:10px;
+}
+#contieneformulario form{
+	width:50%;
+	margin:auto;
+	border:1px dashed rgba(0,0,0,0.2);
+	padding:10px;
+}
+#contieneformulario form input, #contieneformulario form textarea, #contieneformulario form #botonenviar{
+	width:95%;
+	margin-bottom:10px;
+}
+#articulos{
+  padding:17px;
+  float:left;
+  width:490px;
+  border:1px solid white;
+  border-radius:#FFFFFF; 
+  background:#FFFFFF;
+}
+#articuloss{
+  padding:35px;
+  width:650px;
+  background:#FFFFFF;
+}
+.semana{
+  background:white;
+  border-radius:25px 25px 25px 25px;
+  box-shadow:3px 3px 3px 3px green;
+}
+#articulos article{
+	width:100%;
+	float:none;
+	margin-bottom:40px;
+}
+aside{
+  padding:17px;
+  float:left;
+  width:175px;
+  border:1px solid white;
+  border-radius: 0px 25px 0px 25px; 
+  background:#FFFFF1;
+}
+#novedades{
+  width:490px;
+  background:#FFFFF1;
+  border-radius:10px 10px 10px 10px;
+}
+#cursos{
+  width:490px;
+  background:#FFFFF1;
+  border-radius:15px 15px 15px 15px;
+}
+#contieneblog{
+	background:white;
+	width:950px;
+	margin:auto;
+	padding:20px;
+	border-radius: 13px 13px 13px 13px;
+	box-shadow: 3px 3px 3px 3px black;
+}
+#imgblog1{
+	background:url(../img/universidad.jpg);
+	background-size: 100% 100%;
+	width:100%;
+	height:200px;
+	border-radius:15px 15px 15px 15px;
+	box-shadow:3px 3px 3px 3px green;
+}
+#imgblog2{
+	background:url(../img/universidad1.jpg);
+	background-size: 100% 100%;
+	width:100%;
+	height:200px;
+	border-radius:15px 15px 15px 15px;
+	box-shadow:3px 3px 3px 3px green;
+}
+#imgblog3{
+    background:url(../img/universidad2.jpg);
+	background-size: 100% 100%;
+	width:100%;
+	height:200px;
+	border-radius:15px 15px 15px 15px;
+	box-shadow:3px 3px 3px 3px green;
+}
+#contieneportafolio{
+	background:white;
+	width:100%;
+	padding:20px;
+	box-shadow:0px 20px 20px rgba(0,0,0,0.4);
+}
+#contieneregistro{
+	width:380px;
+	padding-left:40px
+}
+.artportafolio{
+	width:50%;
+	
+}
+.imagenportafolio{
+	background:grey;
+	width:380px;
+	height:200px;
+}
+.contieneportafoliointerior{
+	padding:10px;
+	}
+#portafolio1,#portafolio2,#portafolio3,#portafolio4{
+	background:url(../img/DSC_9276.JPG);
+	background-size: 100% 100%;
+}
+.registr{
+   padding:8px;
+}
+table,.registr{
+   color:#990000;
+   background:#CCCCCC;
+   box-shadow:0px 3px 3px 3px green;
+   text-shadow:10px 10px 10px white;
+   border:4px solid #9999CC;
+   border-radius:0px 15px 0px 15px;
+}
