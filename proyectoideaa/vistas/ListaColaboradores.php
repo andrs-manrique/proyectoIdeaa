@@ -30,8 +30,6 @@
                                 </div>
                                 <thead>
                                     <tr>
-
-                                    	 
                                         <th>Identificacion</th>
                                         <th>Tipo Doc</th>
                                         <th>Nombre</th>                                 
